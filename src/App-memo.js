@@ -56,7 +56,7 @@ function App() {
       show: false,
       title: `Post archive in addition to ${posts.length} `,
     };
-  }, []);
+  }, [posts.length]);
 
   return (
     // 2) Provide value to child component
